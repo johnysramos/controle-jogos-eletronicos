@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="consoles_plataformas">
+        <item>@string/playstation_5</item>
+        <item>@string/xbox_one</item>
+        <item>@string/computador</item>
+        <item>@string/playstation_1</item>
+        <item>@string/playstation_2</item>
+    </string-array>
+
+    <string-array name="nomes">
+        <item>@string/resident_evil_2</item>
+        <item>@string/resident_evil_4</item>
+        <item>@string/god_of_war_2</item>
+        <item>@string/god_of_war_1</item>
+        <item>@string/silent_hill</item>
+        <item>@string/dino_crisis</item>
+        <item>@string/nascar</item>
+        <item>@string/gran_turismo_4</item>
+        <item>@string/dota</item>
+        <item>@string/killing_floor_2</item>
+    </string-array>
+
+    <!-- Status dos jogos eletrônicos do listView
+        0 - Novo
+        1 - Usado
+     -->
+    <integer-array name="status">
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+
+    <!-- Indicador de empréstimo dos jogos eletrônicos do listView
+        0 - Não
+        1 - Sim
+     -->
+    <integer-array name="emprestados">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <!-- Consoles/plataformas dos jogos eletrônicos do listView
+        0 - Playstation 5
+        1 - Xbox One
+        2 - Computador
+        3 - Playstation 1
+        4 - Playstation 2
+     -->
+    <integer-array name="consoles_plataformas_selecionados">
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>2</item>
+        <item>2</item>
+    </integer-array>
+
+</resources>

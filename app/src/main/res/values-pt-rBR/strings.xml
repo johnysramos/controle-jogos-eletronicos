@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jogos eletrônicos</string>
+    <string name="nome">Nome</string>
+    <string name="nome_list">Nome:</string>
+    <string name="informe_o_nome_do_jogo_eletrônico">Informe o nome do jogo eletrônico</string>
+    <string name="status">Status</string>
+    <string name="status_list">Status:</string>
+    <string name="novo">Novo</string>
+    <string name="usado">Usado</string>
+    <string name="emprestado_list">Emprestado:</string>
+    <string name="emprestado">Emprestado</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="console_plataforma">Console/plataforma</string>
+    <string name="console_plataforma_list">Console/plataforma:</string>
+    <string name="limpar">Limpar</string>
+    <string name="salvar">Salvar</string>
+    <string name="jogo_eletronico">Jogo eletrônico</string>
+    <string name="foi_clicado">foi clicado</string>
+
+    <!-- Consoles/plataformas -->
+    <string name="playstation_5">Playstation 5</string>
+    <string name="xbox_one">Xbox One</string>
+    <string name="computador">Computador</string>
+    <string name="playstation_1">Playstation 1</string>
+    <string name="playstation_2">Playstation 2</string>
+
+    <string name="campos_limpados">Campos limpos com sucesso</string>
+    <string name="nome_nao_preenchido">Nome não preenchido</string>
+    <string name="status_nao_preenchido">Status não preenchido</string>
+    <string name="console_plataforma_nao_preenchido">Console/plataforma não preenchido</string>
+    <string name="jogo_eletronico_salvo_com_sucesso">Jogo eletrônico salvo com sucesso</string>
+
+    <!-- Nomes de jogos eletrônicos do listView -->
+    <string name="resident_evil_2">Resident Evil 2</string>
+    <string name="resident_evil_4">Resident Evil 4</string>
+    <string name="god_of_war_2">God of War 2</string>
+    <string name="god_of_war_1">God of War 1</string>
+    <string name="silent_hill">Silent Hill</string>
+    <string name="dino_crisis">Dino Crisis</string>
+    <string name="nascar">Nascar</string>
+    <string name="gran_turismo_4">Gran Turismo 4</string>
+    <string name="dota">Dota</string>
+    <string name="killing_floor_2">Killing Floor 2</string>
+    <string name="autor">Autor: Johny de Souza Ramos</string>
+    <string name="autor_email">E-mail: johnyramos@alunos.utfpr.edu.br</string>
+    <string name="curso">Curso: Pós EAD em Java</string>
+    <string name="app_desc">Aplicativo para auxiliar o consumidor de jogos eletrônicos a inventariar seus jogos e consoles/plataformas para controle pessoal</string>
+    <string name="sobre">Sobre</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="ediar">Editar</string>
+    <string name="excluir">Excluir</string>
+    <string name="novo_jogo_eletronico">Novo jogo eletrônico</string>
+    <string name="alterar_jogo_eletronico">Alterar jogo eletrônico</string>
+    <string name="modo_noturno">Modo noturno</string>
+    <string name="confirmacao">Confirmação</string>
+    <string name="deseja_realmente_excluir_esse_jogo">Deseja realmente excluir esse jogo eletrônico?</string>
+</resources>

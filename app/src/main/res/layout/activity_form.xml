@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Plain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormActivity">
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/nome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="@string/informe_o_nome_do_jogo_eletrônico"
+        android:inputType="text|textCapSentences"
+        app:layout_constraintStart_toStartOf="@+id/textViewNome"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNome" />
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/status"
+        app:layout_constraintStart_toStartOf="@+id/editTextNome"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNome" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/textViewStatus"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStatus">
+
+        <RadioButton
+            android:id="@+id/radioButtonNovo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/novo" />
+
+        <RadioButton
+            android:id="@+id/radioButtonUsado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/usado" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewEmprestado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/emprestado"
+        app:layout_constraintStart_toStartOf="@+id/radioGroupStatus"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupStatus" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEmprestado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sim"
+        app:layout_constraintStart_toStartOf="@+id/textViewEmprestado"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmprestado" />
+
+    <TextView
+        android:id="@+id/textViewConsolePlataforma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/console_plataforma"
+        app:layout_constraintStart_toStartOf="@+id/checkBoxEmprestado"
+        app:layout_constraintTop_toBottomOf="@+id/checkBoxEmprestado" />
+
+    <Spinner
+        android:id="@+id/spinnerConsolePlataforma"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="@+id/textViewConsolePlataforma"
+        app:layout_constraintTop_toBottomOf="@+id/textViewConsolePlataforma" />
+
+    <!--<Button
+        android:id="@+id/buttonLimpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:onClick="limpaCampos"
+        android:text="@string/limpar"
+        app:layout_constraintStart_toStartOf="@+id/spinnerConsolePlataforma"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerConsolePlataforma" />
+
+    <Button
+        android:id="@+id/buttonSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:onClick="salvar"
+        android:text="@string/salvar"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerConsolePlataforma"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerConsolePlataforma" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

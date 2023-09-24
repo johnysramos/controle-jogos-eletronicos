@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Eletronic games</string>
+    <string name="nome">Name</string>
+    <string name="nome_list">Name:</string>
+    <string name="informe_o_nome_do_jogo_eletrônico">Inform the eletronic game name</string>
+    <string name="status">Status</string>
+    <string name="status_list">Status:</string>
+    <string name="novo">New</string>
+    <string name="usado">Used</string>
+    <string name="emprestado_list">Borrowed:</string>
+    <string name="emprestado">Borrowed</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="console_plataforma">Console/plataform</string>
+    <string name="console_plataforma_list">Console/plataform:</string>
+    <string name="limpar">Clean</string>
+    <string name="salvar">Save</string>
+    <string name="jogo_eletronico">Eletronic name</string>
+    <string name="foi_clicado">"it's clicked"</string>
+
+    <!-- Consoles/plataformas -->
+    <string name="playstation_5">Playstation 5</string>
+    <string name="xbox_one">Xbox One</string>
+    <string name="computador">Computer</string>
+    <string name="playstation_1">Playstation 1</string>
+    <string name="playstation_2">Playstation 2</string>
+
+    <string name="campos_limpados">Successfully cleared fields</string>
+    <string name="nome_nao_preenchido">Unfilled name</string>
+    <string name="status_nao_preenchido">Unfilled Status</string>
+    <string name="console_plataforma_nao_preenchido">Unfilled Console/plataform</string>
+    <string name="jogo_eletronico_salvo_com_sucesso">Electronic game successfully saved</string>
+
+    <!-- Nomes de jogos eletrônicos do listView -->
+    <string name="resident_evil_2">Resident Evil 2</string>
+    <string name="resident_evil_4">Resident Evil 4</string>
+    <string name="god_of_war_2">God of War 2</string>
+    <string name="god_of_war_1">God of War 1</string>
+    <string name="silent_hill">Silent Hill</string>
+    <string name="dino_crisis">Dino Crisis</string>
+    <string name="nascar">Nascar</string>
+    <string name="gran_turismo_4">Gran Turismo 4</string>
+    <string name="dota">Dota</string>
+    <string name="killing_floor_2">Killing Floor 2</string>
+
+    <string name="autor">Author: Johny de Souza Ramos</string>
+    <string name="autor_email">E-mail: johnyramos@alunos.utfpr.edu.br</string>
+    <string name="curso">Course: Pós EAD em Java</string>
+    <string name="app_desc">Application to help consumers of electronic games to inventory their games and consoles/platforms for personal control</string>
+    <string name="sobre">About</string>
+    <string name="adicionar">To add</string>
+    <string name="ediar">Edit</string>
+    <string name="excluir">Delete</string>
+    <string name="novo_jogo_eletronico">New eletronic game</string>
+    <string name="alterar_jogo_eletronico">Edit eletronic game</string>
+    <string name="modo_noturno">Night mode</string>
+    <string name="confirmacao">Confirmation</string>
+    <string name="deseja_realmente_excluir_esse_jogo">Do you really wish delete this eletronic game?</string>
+
+</resources>
